@@ -289,10 +289,10 @@ end
 
 control 'cis-kubernetes-benchmark-2.1.9' do
   title 'Ensure that the --keep-terminated-pod-volumes argument is set to false (Scored)'
-  desc "Unmount volumes from the nodes on pod termination.\n\nRationale: On pod termination, you should unmount the volumes. Those volumes might have sensitive data that might be exposed if kept mounted on the node without any use. Additionally, such mounted volumes could be modified and later could be mounted on pods. Also, if you retain all mounted volumes for a long time, it might exhaust system resources and you might not be able to mount any more volumes on new pods."
+  desc "Unmount volumes from the nodes on pod termination."
   impact 1.0
 
-  tag rationale: ""
+  tag rationale: "On pod termination, you should unmount the volumes. Those volumes might have sensitive data that might be exposed if kept mounted on the node without any use. Additionally, such mounted volumes could be modified and later could be mounted on pods. Also, if you retain all mounted volumes for a long time, it might exhaust system resources and you might not be able to mount any more volumes on new pods."
 
   tag check: "Run the following command on each node:
 
