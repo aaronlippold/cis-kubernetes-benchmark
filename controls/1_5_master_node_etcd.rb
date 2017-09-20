@@ -348,10 +348,10 @@ end
 
 control 'cis-kubernetes-benchmark-1.5.8' do
   title 'Ensure that the --max-wals argument is set to 0 (Scored)'
-  desc "Do not auto rotate logs.\n\nRationale: etcd is a highly-available key value store used by Kubernetes deployments for persistent storage of all of its REST API objects. You should avoid automatic log rotation and instead safeguard the logs in a centralized repository or through a separate log management system."
+  desc "Do not auto rotate logs."
   impact 1.0
 
-  tag rationale: ""
+  tag rationale: "etcd is a highly-available key value store used by Kubernetes deployments for persistent storage of all of its REST API objects. You should avoid automatic log rotation and instead safeguard the logs in a centralized repository or through a separate log management system."
 
   tag check: "Run the following command on the etcd server node:
 
