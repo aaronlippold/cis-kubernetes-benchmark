@@ -91,10 +91,10 @@ end
 
 control 'cis-kubernetes-benchmark-2.1.3' do
   title 'Ensure that the --authorization-mode argument is not set to AlwaysAllow (Scored)'
-  desc "Do not allow all requests. Enable explicit authorization.\n\nRationale: Kubelets, by default, allow all authenticated requests (even anonymous ones) without needing explicit authorization checks from the apiserver. You should restrict this behavior and only allow explicitly authorized requests."
+  desc "Do not allow all requests. Enable explicit authorization."
   impact 1.0
 
-  tag rationale: ""
+  tag rationale: "Kubelets, by default, allow all authenticated requests (even anonymous ones) without needing explicit authorization checks from the apiserver. You should restrict this behavior and only allow explicitly authorized requests."
 
   tag check: "Run the following command on each node:
 

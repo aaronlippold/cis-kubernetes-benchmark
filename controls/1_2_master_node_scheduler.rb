@@ -36,7 +36,7 @@ control 'cis-kubernetes-benchmark-1.2.1' do
 
   tag fix: "Edit the `/etc/kubernetes/scheduler` file on the master node and set the `KUBE_SCHEDULER_ARGS` parameter to `"--profiling=false"`:
 
-  `KUBE_SCHEDULER_ARGS="--profiling=false"`
+  `KUBE_SCHEDULER_ARGS=\"--profiling=false\"`
 
   Based on your system, restart the `kube-scheduler` service. For example:
 
