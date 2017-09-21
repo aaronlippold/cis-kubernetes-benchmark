@@ -248,7 +248,6 @@ control 'cis-kubernetes-benchmark-2.2.7' do
   tag cis_rid: "2.2.7"
   tag cis_level: 1
   tag nist: ['AC-6(9)', '4']
-  tag nist: ['', '4']
 
   ref 'x509-client-certs', url: 'https://kubernetes.io/docs/admin/authentication/#x509-client-certs'
 
