@@ -123,7 +123,7 @@ if cis_level == '2'
     tag cis_family: ['14.1', '6.1']
     tag cis_rid: "1.6.4"
     tag cis_level: 2
-    tag nist: ['', '4']
+    tag nist: ['AC-4', '4']
 
     ref 'networkpolicies', url: 'https://kubernetes.io/docs/concepts/services-networking/networkpolicies/'
     ref 'security-best-practices-kubernetes-deployment.html', url: 'http://blog.kubernetes.io/2016/08/security-best-practices-kubernetes-deployment.html'
