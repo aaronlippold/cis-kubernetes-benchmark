@@ -45,7 +45,7 @@ control 'cis-kubernetes-benchmark-2.1.1' do
   tag cis_family: ['5.1', '6.1']
   tag cis_rid: "2.1.1"
   tag cis_level: 1
-  tag nist: ['AC-6(9)', '4']
+  tag nist: ['AC-6 (9)', '4']
 
   ref 'kubelet', url: 'https://kubernetes.io/docs/admin/kubelet/'
   ref 'security-context', url: 'https://kubernetes.io/docs/user-guide/security-context/'
@@ -148,7 +148,7 @@ control 'cis-kubernetes-benchmark-2.1.4' do
   tag cis_family: ['14.2', '6.1']
   tag cis_rid: "2.1.4"
   tag cis_level: 1
-  tag nist: ['AC-4(20)', '4']
+  tag nist: ['AC-4 (20)', '4']
 
   ref 'kubelet', url: 'https://kubernetes.io/docs/admin/kubelet/'
   ref 'kubelet-authentication', url: 'https://kubernetes.io/docs/admin/kubelet-authentication-authorization/#kubelet-authentication'
@@ -182,7 +182,7 @@ control 'cis-kubernetes-benchmark-2.1.5' do
   tag cis_family: ['9.1', '6.1']
   tag cis_rid: "2.1.5"
   tag cis_level: 1
-  tag nist: ['CM-7(1)', '4']
+  tag nist: ['CM-7 (1)', '4']
 
   ref 'kubelet', url: 'https://kubernetes.io/docs/admin/kubelet/'
 
@@ -411,7 +411,7 @@ control 'cis-kubernetes-benchmark-2.1.12' do
   tag cis_family: ['14.2', '6.1']
   tag cis_rid: "2.1.12"
   tag cis_level: 1
-  tag nist: ['AC-4(20)', '4']
+  tag nist: ['AC-4 (20)', '4']
 
   ref 'kubelet', url: 'https://kubernetes.io/docs/admin/kubelet/'
   ref 'securing-the-kubernetes-api', url: 'http://rootsquash.com/2016/05/10/securing-the-kubernetes-api/'
@@ -447,7 +447,7 @@ control 'cis-kubernetes-benchmark-2.1.13' do
   tag cis_family: ['9.1', '6.1']
   tag cis_rid: "2.1.13"
   tag cis_level: 1
-  tag nist: ['CM-7(1)', '4']
+  tag nist: ['CM-7 (1)', '4']
 
   ref 'kubelet', url: 'https://kubernetes.io/docs/admin/kubelet/'
   ref 'Kubernetes issues 11710', url: 'https://github.com/kubernetes/kubernetes/issues/11710'
@@ -483,7 +483,7 @@ control 'cis-kubernetes-benchmark-2.1.14' do
   tag cis_family: ['14.2', '6.1']
   tag cis_rid: "2.1.14"
   tag cis_level: 1
-  tag nist: ['AC-4(20)', '4']
+  tag nist: ['AC-4 (20)', '4']
 
   ref 'Kubernetes pull 41912', url: 'https://github.com/kubernetes/kubernetes/pull/41912'
   ref 'kubelet-configuration', url: 'https://kubernetes.io/docs/admin/kubelet-tls-bootstrapping/#kubelet-configuration'
@@ -517,7 +517,7 @@ control 'cis-kubernetes-benchmark-2.1.15' do
   tag cis_family: ['14.2', '6.1']
   tag cis_rid: "2.1.15"
   tag cis_level: 1
-  tag nist: ['AC-4(20)', '4']
+  tag nist: ['AC-4 (20)', '4']
 
   ref 'Kubernetes pull 45059', url: 'https://github.com/kubernetes/kubernetes/pull/45059'
   ref 'kubelet-configuration', url: 'https://kubernetes.io/docs/admin/kubelet-tls-bootstrapping/#kubelet-configuration'
