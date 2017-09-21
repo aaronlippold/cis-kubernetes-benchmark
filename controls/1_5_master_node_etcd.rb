@@ -45,7 +45,7 @@ control 'cis-kubernetes-benchmark-1.5.1' do
   tag cis_family: ['14.2', '6.1']
   tag cis_rid: "1.5.1"
   tag cis_level: 1
-  tag nist: ['', '4']
+  tag nist: ['SC-8', '4']
 
   ref 'security.html', url: 'https://coreos.com/etcd/docs/latest/op-guide/security.html'
   ref 'kubernetes-etcd', url: 'https://kubernetes.io/docs/admin/etcd/'
@@ -142,7 +142,7 @@ control 'cis-kubernetes-benchmark-1.5.3' do
   tag cis_family: ['14.2', '6.1']
   tag cis_rid: "1.5.3"
   tag cis_level: 1
-  tag nist: ['', '4']
+  tag nist: ['SC-8', '4']
 
   ref 'security.html', url: 'https://coreos.com/etcd/docs/latest/op-guide/security.html'
   ref 'kubernetes-etcd', url: 'https://kubernetes.io/docs/admin/etcd/'
@@ -173,7 +173,7 @@ control 'cis-kubernetes-benchmark-1.5.4' do
   tag cis_family: ['14.2', '6.1']
   tag cis_rid: "1.5.4"
   tag cis_level: 1
-  tag nist: ['', '4']
+  tag nist: ['SC-8', '4']
 
   ref 'security.html', url: 'https://coreos.com/etcd/docs/latest/op-guide/security.html'
   ref 'kubernetes-etcd', url: 'https://kubernetes.io/docs/admin/etcd/'
@@ -231,7 +231,7 @@ control 'cis-kubernetes-benchmark-1.5.5' do
   tag cis_family: ['14.4', '6.1']
   tag cis_rid: "1.5.5"
   tag cis_level: 1
-  tag nist: ['', '4']
+  tag nist: ['AC-3(3)', '4']
 
   ref 'security.html', url: 'https://coreos.com/etcd/docs/latest/op-guide/security.html'
   ref 'kubernetes-etcd', url: 'https://kubernetes.io/docs/admin/etcd/'
