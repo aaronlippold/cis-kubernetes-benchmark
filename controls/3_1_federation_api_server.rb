@@ -72,7 +72,7 @@ control 'cis-kubernetes-benchmark-3.1.2' do
   tag cis_family: ['16.14', '6.1']
   tag cis_rid: "3.1.2"
   tag cis_level: 1
-  tag nist: ['', '4']
+  tag nist: ['SC-28', '4']
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -134,7 +134,7 @@ control 'cis-kubernetes-benchmark-3.1.4' do
   tag cis_family: ['9.1', '6.1']
   tag cis_rid: "3.1.4"
   tag cis_level: 1
-  tag nist: ['', '4']
+  tag nist: ['CM-7(1)', '4']
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -170,7 +170,7 @@ control 'cis-kubernetes-benchmark-3.1.5' do
   tag cis_family: ['9.1', '6.1']
   tag cis_rid: "3.1.5"
   tag cis_level: 1
-  tag nist: ['', '4']
+  tag nist: ['CM-7(1)', '4']
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -479,7 +479,7 @@ control 'cis-kubernetes-benchmark-3.1.14' do
   tag cis_family: ['9.1', '6.1']
   tag cis_rid: "3.1.14"
   tag cis_level: 1
-  tag nist: ['', '4']
+  tag nist: ['CM-7(1)', '4']
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -511,7 +511,7 @@ control 'cis-kubernetes-benchmark-3.1.15' do
   tag cis_family: ['16.14', '6.1']
   tag cis_rid: "3.1.15"
   tag cis_level: 1
-  tag nist: ['', '4']
+  tag nist: ['SC-28', '4']
 
   ref 'static-token-file', url: 'https://kubernetes.io/docs/admin/authentication/#static-token-file'
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
