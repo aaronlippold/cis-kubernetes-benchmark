@@ -182,7 +182,7 @@ control 'cis-kubernetes-benchmark-2.1.5' do
   tag cis_family: ['9.1', '6.1']
   tag cis_rid: "2.1.5"
   tag cis_level: 1
-  tag nist: ['', '4']
+  tag nist: ['CM-7(1)', '4']
 
   ref 'kubelet', url: 'https://kubernetes.io/docs/admin/kubelet/'
 
@@ -447,7 +447,7 @@ control 'cis-kubernetes-benchmark-2.1.13' do
   tag cis_family: ['9.1', '6.1']
   tag cis_rid: "2.1.13"
   tag cis_level: 1
-  tag nist: ['', '4']
+  tag nist: ['CM-7(1)', '4']
 
   ref 'kubelet', url: 'https://kubernetes.io/docs/admin/kubelet/'
   ref 'Kubernetes issues 11710', url: 'https://github.com/kubernetes/kubernetes/issues/11710'
