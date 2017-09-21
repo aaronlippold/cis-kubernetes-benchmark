@@ -39,7 +39,7 @@ control 'cis-kubernetes-benchmark-1.6.1' do
   tag cis_family: ['5.1', '6.1']
   tag cis_rid: "1.6.1"
   tag cis_level: 1
-  tag nist: ['AC-6(9)', '4']
+  tag nist: ['AC-6 (9)', '4']
 
   ref 'user-facing-roles', url: 'https://kubernetes.io/docs/admin/authorization/rbac/#user-facing-roles'
 
