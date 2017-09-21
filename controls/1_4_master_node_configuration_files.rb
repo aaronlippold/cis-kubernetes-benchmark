@@ -37,7 +37,7 @@ control 'cis-kubernetes-benchmark-1.4.1' do
   tag cis_family: ['5.1', '6.1']
   tag cis_rid: "1.4.1"
   tag cis_level: 1
-  tag nist: ['AC-6(9)', '4']
+  tag nist: ['AC-6 (9)', '4']
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
 
@@ -70,7 +70,7 @@ control 'cis-kubernetes-benchmark-1.4.2' do
   tag cis_family: ['5.1', '6.1']
   tag cis_rid: "1.4.2"
   tag cis_level: 1
-  tag nist: ['AC-6(9)', '4']
+  tag nist: ['AC-6 (9)', '4']
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
 
@@ -104,7 +104,7 @@ control 'cis-kubernetes-benchmark-1.4.3' do
   tag cis_family: ['5.1', '6.1']
   tag cis_rid: "1.4.3"
   tag cis_level: 1
-  tag nist: ['AC-6(9)', '4']
+  tag nist: ['AC-6 (9)', '4']
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
 
@@ -137,7 +137,7 @@ control 'cis-kubernetes-benchmark-1.4.4' do
   tag cis_family: ['5.1', '6.1']
   tag cis_rid: "1.4.4"
   tag cis_level: 1
-  tag nist: ['AC-6(9)', '4']
+  tag nist: ['AC-6 (9)', '4']
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
 
@@ -171,7 +171,7 @@ control 'cis-kubernetes-benchmark-1.4.5' do
   tag cis_family: ['5.1', '6.1']
   tag cis_rid: "1.4.5"
   tag cis_level: 1
-  tag nist: ['AC-6(9)', '4']
+  tag nist: ['AC-6 (9)', '4']
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
 
@@ -204,7 +204,7 @@ control 'cis-kubernetes-benchmark-1.4.6' do
   tag cis_family: ['5.1', '6.1']
   tag cis_rid: "1.4.6"
   tag cis_level: 1
-  tag nist: ['AC-6(9)', '4']
+  tag nist: ['AC-6 (9)', '4']
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
 
@@ -238,7 +238,7 @@ control 'cis-kubernetes-benchmark-1.4.7' do
   tag cis_family: ['5.1', '6.1']
   tag cis_rid: "1.4.7"
   tag cis_level: 1
-  tag nist: ['AC-6(9)', '4']
+  tag nist: ['AC-6 (9)', '4']
 
   ref 'coreos-etcd', url: 'https://coreos.com/etcd'
   ref 'kubernetes-etcd', url: 'https://kubernetes.io/docs/admin/etcd/'
@@ -272,7 +272,7 @@ control 'cis-kubernetes-benchmark-1.4.8' do
   tag cis_family: ['5.1', '6.1']
   tag cis_rid: "1.4.8"
   tag cis_level: 1
-  tag nist: ['AC-6(9)', '4']
+  tag nist: ['AC-6 (9)', '4']
 
   ref 'coreos-etcd', url: 'https://coreos.com/etcd'
   ref 'kubernetes-etcd', url: 'https://kubernetes.io/docs/admin/etcd/'
@@ -309,7 +309,7 @@ control 'cis-kubernetes-benchmark-1.4.9' do
   tag cis_family: ['5.1', '6.1']
   tag cis_rid: "1.4.9"
   tag cis_level: 1
-  tag nist: ['AC-6(9)', '4']
+  tag nist: ['AC-6 (9)', '4']
 
   ref 'coreos-flannel', url: 'https://coreos.com/flannel/docs/latest/'
   ref 'flannel', url: 'https://kubernetes.io/docs/concepts/cluster-administration/networking/#flannel'
@@ -345,7 +345,7 @@ control 'cis-kubernetes-benchmark-1.4.10' do
   tag cis_family: ['5.1', '6.1']
   tag cis_rid: "1.4.10"
   tag cis_level: 1
-  tag nist: ['AC-6(9)', '4']
+  tag nist: ['AC-6 (9)', '4']
 
   ref 'coreos-flannel', url: 'https://coreos.com/flannel/docs/latest/'
   ref 'flannel', url: 'https://kubernetes.io/docs/concepts/cluster-administration/networking/#flannel'
