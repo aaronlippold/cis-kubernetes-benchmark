@@ -134,7 +134,7 @@ control 'cis-kubernetes-benchmark-3.1.4' do
   tag cis_family: ['9.1', '6.1']
   tag cis_rid: "3.1.4"
   tag cis_level: 1
-  tag nist: ['CM-7(1)', '4']
+  tag nist: ['CM-7 (1)', '4']
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -170,7 +170,7 @@ control 'cis-kubernetes-benchmark-3.1.5' do
   tag cis_family: ['9.1', '6.1']
   tag cis_rid: "3.1.5"
   tag cis_level: 1
-  tag nist: ['CM-7(1)', '4']
+  tag nist: ['CM-7 (1)', '4']
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -201,7 +201,7 @@ control 'cis-kubernetes-benchmark-3.1.6' do
   tag cis_family: ['14.2', '6.1']
   tag cis_rid: "3.1.6"
   tag cis_level: 1
-  tag nist: ['AC-4(20)', '4']
+  tag nist: ['AC-4 (20)', '4']
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -479,7 +479,7 @@ control 'cis-kubernetes-benchmark-3.1.14' do
   tag cis_family: ['9.1', '6.1']
   tag cis_rid: "3.1.14"
   tag cis_level: 1
-  tag nist: ['CM-7(1)', '4']
+  tag nist: ['CM-7 (1)', '4']
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -641,7 +641,7 @@ control 'cis-kubernetes-benchmark-3.1.19' do
   tag cis_family: ['14.2', '6.1']
   tag cis_rid: "3.1.19"
   tag cis_level: 1
-  tag nist: ['AC-4(20)', '4']
+  tag nist: ['AC-4 (20)', '4']
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'securing-the-kubernetes-api', url: 'http://rootsquash.com/2016/05/10/securing-the-kubernetes-api/'
