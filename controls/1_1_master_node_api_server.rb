@@ -119,7 +119,7 @@ control 'cis-kubernetes-benchmark-1.1.3' do
   tag cis_family: ['16.14', '6.1']
   tag cis_rid: "1.1.3"
   tag cis_level: 1
-  tag nist: ['AC-2(5)', '4']
+  tag nist: ['AC-2 (5)', '4']
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'static-password-file', url: 'https://kubernetes.io/docs/admin/authentication/#static-password-file'
@@ -219,7 +219,7 @@ control 'cis-kubernetes-benchmark-1.1.6' do
   tag cis_family: ['9.1', '6.1']
   tag cis_rid: "1.1.6"
   tag cis_level: 1
-  tag nist: ['CM-7(1)', '4']
+  tag nist: ['CM-7 (1)', '4']
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
 
@@ -255,7 +255,7 @@ control 'cis-kubernetes-benchmark-1.1.7' do
   tag cis_family: ['9.1', '6.1']
   tag cis_rid: "1.1.7"
   tag cis_level: 1
-  tag nist: ['CM-7(1)', '4']
+  tag nist: ['CM-7 (1)', '4']
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
 
@@ -425,7 +425,7 @@ control 'cis-kubernetes-benchmark-1.1.12' do
   tag cis_family: ['14.4', '6.1']
   tag cis_rid: "1.1.12"
   tag cis_level: 1
-  tag nist: ['AC-3(3)', '4']
+  tag nist: ['AC-3 (3)', '4']
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'AlwaysPullImages', url: 'https://kubernetes.io/docs/admin/admission-controllers/#alwayspullimages'
@@ -493,7 +493,7 @@ control 'cis-kubernetes-benchmark-1.1.14' do
   tag cis_family: ['5.1', '6.1']
   tag cis_rid: "1.1.14"
   tag cis_level: 1
-  tag nist: ['AC-6(9)', '4']
+  tag nist: ['AC-6 (9)', '4']
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'SecurityContextDeny', url: 'https://kubernetes.io/docs/admin/admission-controllers/#securitycontextdeny'
@@ -726,7 +726,7 @@ control 'cis-kubernetes-benchmark-1.1.20' do
   tag cis_family: ['9.1', '6.1']
   tag cis_rid: "1.1.20"
   tag cis_level: 1
-  tag nist: ['CM-7(1)', '4']
+  tag nist: ['CM-7 (1)', '4']
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'authorization', url: 'https://kubernetes.io/docs/admin/authorization/'
@@ -759,7 +759,7 @@ control 'cis-kubernetes-benchmark-1.1.21' do
   tag cis_family: ['16.14', '6.1']
   tag cis_rid: "1.1.21"
   tag cis_level: 1
-  tag nist: ['AC-2(5)', '4']
+  tag nist: ['AC-2 (5)', '4']
 
   ref 'static-token-file', url: 'https://kubernetes.io/docs/admin/authentication/#static-token-file'
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
@@ -1143,7 +1143,7 @@ control 'cis-kubernetes-benchmark-1.1.32' do
   tag cis_family: ['9.1', '6.1']
   tag cis_rid: "1.1.32"
   tag cis_level: 1
-  tag nist: ['CM-7(1)', '4']
+  tag nist: ['CM-7 (1)', '4']
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'node', url: 'https://kubernetes.io/docs/admin/authorization/node/'
