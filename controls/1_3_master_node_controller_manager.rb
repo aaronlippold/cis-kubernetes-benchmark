@@ -46,6 +46,7 @@ control 'cis-kubernetes-benchmark-1.3.1' do
   tag cis_rid: "1.3.1"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
   ref 'kube-controller-manager', url: 'https://kubernetes.io/docs/admin/kube-controller-manager/'
   ref 'Kubernetes issues 28484', url: 'https://github.com/kubernetes/kubernetes/issues/28484'
@@ -80,6 +81,7 @@ control 'cis-kubernetes-benchmark-1.3.2' do
   tag cis_rid: "1.3.2"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
   ref 'kube-controller-manager', url: 'https://kubernetes.io/docs/admin/kube-controller-manager/'
   ref 'profiling.md', url: 'https://github.com/kubernetes/community/blob/master/contributors/devel/profi ling.md'
@@ -114,6 +116,7 @@ control 'cis-kubernetes-benchmark-1.3.3' do
   tag cis_rid: "1.3.3"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
   ref 'kube-controller-manager', url: 'https://kubernetes.io/docs/admin/kube-controller-manager/'
   ref 'service-accounts-admin', url: 'https://kubernetes.io/docs/admin/service-accounts-admin/'
@@ -151,6 +154,7 @@ control 'cis-kubernetes-benchmark-1.3.4' do
   tag cis_rid: "1.3.4"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
   ref 'kube-controller-manager', url: 'https://kubernetes.io/docs/admin/kube-controller-manager/'
 
@@ -184,6 +188,7 @@ control 'cis-kubernetes-benchmark-1.3.5' do
   tag cis_rid: "1.3.5"
   tag cis_level: 1
   tag nist: ['SC-8', '4']
+  tag severity: "medium"
 
   ref 'kube-controller-manager', url: 'https://kubernetes.io/docs/admin/kube-controller-manager/'
   ref 'Kubernetes issues 11000', url: 'https://github.com/kubernetes/kubernetes/issues/11000'
@@ -208,6 +213,7 @@ control 'cis-kubernetes-benchmark-1.3.6' do
   tag cis_rid: "1.3.6"
   tag cis_level: 1
   tag nist: ['CM-6', '4']
+  tag severity: "medium"
 
   ref 'security-context', url: 'https://kubernetes.io/docs/concepts/policy/security-context/'
   ref 'benchmarks', url: 'https://learn.cisecurity.org/benchmarks'
@@ -242,6 +248,7 @@ control 'cis-kubernetes-benchmark-1.3.7' do
   tag cis_rid: "1.3.7"
   tag cis_level: 1
   tag nist: ['SC-8', '4']
+  tag severity: "medium"
 
   ref 'approval-controller', url: 'https://kubernetes.io/docs/admin/kubelet-tls-bootstrapping/#approval-controller'
   ref 'Kubernetes issues 267', url: 'https://github.com/kubernetes/features/issues/267'

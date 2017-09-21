@@ -40,6 +40,7 @@ control 'cis-kubernetes-benchmark-1.6.1' do
   tag cis_rid: "1.6.1"
   tag cis_level: 1
   tag nist: ['AC-6 (9)', '4']
+  tag severity: "medium"
 
   ref 'user-facing-roles', url: 'https://kubernetes.io/docs/admin/authorization/rbac/#user-facing-roles'
 
@@ -67,6 +68,7 @@ control 'cis-kubernetes-benchmark-1.6.2' do
   tag cis_rid: "1.6.2"
   tag cis_level: 1
   tag nist: ['CM-6', '4']
+  tag severity: "medium"
 
   ref 'pod-security-policy', url: 'https://kubernetes.io/docs/concepts/policy/pod-security-policy/'
   ref 'benchmarks.servers.virtualization.docker', url: 'https://benchmarks.cisecurity.org/downloads/browse/index.cfm?category=benchmarks.servers.virtualization.docker'
@@ -95,6 +97,7 @@ control 'cis-kubernetes-benchmark-1.6.3' do
   tag cis_rid: "1.6.3"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
   ref 'namespaces', url: 'https://kubernetes.io/docs/concepts/overview/working-with- objects/namespaces/'
   ref 'security-best-practices-kubernetes-deployment.html', url: 'http://blog.kubernetes.io/2016/08/security-best-practices-kubernetes-deployment.html'
@@ -124,6 +127,7 @@ if cis_level == '2'
     tag cis_rid: "1.6.4"
     tag cis_level: 2
     tag nist: ['AC-4', '4']
+  tag severity: "medium"
 
     ref 'networkpolicies', url: 'https://kubernetes.io/docs/concepts/services-networking/networkpolicies/'
     ref 'security-best-practices-kubernetes-deployment.html', url: 'http://blog.kubernetes.io/2016/08/security-best-practices-kubernetes-deployment.html'
@@ -172,6 +176,7 @@ if cis_level == '2'
     tag cis_rid: "1.6.5"
     tag cis_level: 2
     tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
     ref 'Kubernetes issues 39845', url: 'https://github.com/kubernetes/kubernetes/issues/39845'
     ref 'Kubernetes pull 21790', url: 'https://github.com/kubernetes/kubernetes/pull/21790'
@@ -198,6 +203,7 @@ if cis_level == '2'
     tag cis_rid: "1.6.6"
     tag cis_level: 2
     tag nist: ['CM-6', '4']
+  tag severity: "medium"
 
     ref 'security-context', url: 'https://kubernetes.io/docs/concepts/policy/security-context/'
     ref 'benchmarks', url: 'https://learn.cisecurity.org/benchmarks'
@@ -222,6 +228,7 @@ if cis_level == '2'
     tag cis_rid: "1.6.7"
     tag cis_level: 2
     tag nist: ['SI-1', '4']
+  tag severity: "medium"
 
     ref 'imagepolicywebhook', url: 'https://kubernetes.io/docs/admin/admission-controllers/#imagepolicywebhook'
     ref 'image-provenance', url: 'https://github.com/kubernetes/community/blob/master/contributors/design-proposals/image-provenance.md'
@@ -257,6 +264,7 @@ if cis_level == '2'
     tag cis_rid: "1.6.8"
     tag cis_level: 2
     tag nist: ['SC-7', '4']
+  tag severity: "medium"
 
     ref 'network-policies', url: 'https://kubernetes.io/docs/concepts/services-networking/network-policies/'
 

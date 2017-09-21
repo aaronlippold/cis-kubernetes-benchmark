@@ -51,6 +51,7 @@ control 'cis-kubernetes-benchmark-1.1.1' do
   tag cis_rid: "1.1.1"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
   # @todo verify/add sub-family NIST mapping
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
@@ -88,6 +89,7 @@ control 'cis-kubernetes-benchmark-1.1.2' do
   tag cis_rid: "1.1.2"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'anonymous-requests', url: 'https://kubernetes.io/docs/admin/authentication/#anonymous-requests'
@@ -120,6 +122,7 @@ control 'cis-kubernetes-benchmark-1.1.3' do
   tag cis_rid: "1.1.3"
   tag cis_level: 1
   tag nist: ['AC-2 (5)', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'static-password-file', url: 'https://kubernetes.io/docs/admin/authentication/#static-password-file'
@@ -152,6 +155,7 @@ control 'cis-kubernetes-benchmark-1.1.4' do
   tag cis_rid: "1.1.4"
   tag cis_level: 1
   tag nist: ['AC-2', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
 
@@ -183,6 +187,7 @@ control 'cis-kubernetes-benchmark-1.1.5' do
   tag cis_rid: "1.1.5"
   tag cis_level: 1
   tag nist: ['SC-8', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'kubelet-authentication-authorization', url: 'https://kubernetes.io/docs/admin/kubelet-authentication-authorization/'
@@ -220,6 +225,7 @@ control 'cis-kubernetes-benchmark-1.1.6' do
   tag cis_rid: "1.1.6"
   tag cis_level: 1
   tag nist: ['CM-7 (1)', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
 
@@ -256,6 +262,7 @@ control 'cis-kubernetes-benchmark-1.1.7' do
   tag cis_rid: "1.1.7"
   tag cis_level: 1
   tag nist: ['CM-7 (1)', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
 
@@ -287,6 +294,7 @@ control 'cis-kubernetes-benchmark-1.1.8' do
   tag cis_rid: "1.1.8"
   tag cis_level: 1
   tag nist: ['SC-8', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
 
@@ -325,6 +333,7 @@ control 'cis-kubernetes-benchmark-1.1.9' do
   tag cis_rid: "1.1.9"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'profiling.md', url: 'https://github.com/kubernetes/community/blob/master/contributors/devel/profiling.md'
@@ -359,6 +368,7 @@ control 'cis-kubernetes-benchmark-1.1.10' do
   tag cis_rid: "1.1.10"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'Kubernetes issues 15580', url: 'https://github.com/kubernetes/kubernetes/issues/15580'
@@ -391,6 +401,7 @@ control 'cis-kubernetes-benchmark-1.1.11' do
   tag cis_rid: "1.1.11"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'AlwaysAdmit', url: 'https://kubernetes.io/docs/admin/admission-controllers/#alwaysadmit'
@@ -426,6 +437,7 @@ control 'cis-kubernetes-benchmark-1.1.12' do
   tag cis_rid: "1.1.12"
   tag cis_level: 1
   tag nist: ['AC-3 (3)', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'AlwaysPullImages', url: 'https://kubernetes.io/docs/admin/admission-controllers/#alwayspullimages'
@@ -460,6 +472,7 @@ control 'cis-kubernetes-benchmark-1.1.13' do
   tag cis_rid: "1.1.13"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'DenyEscalatingExec', url: 'https://kubernetes.io/docs/admin/admission-controllers/#denyescalatingexec'
@@ -494,6 +507,7 @@ control 'cis-kubernetes-benchmark-1.1.14' do
   tag cis_rid: "1.1.14"
   tag cis_level: 1
   tag nist: ['AC-6 (9)', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'SecurityContextDeny', url: 'https://kubernetes.io/docs/admin/admission-controllers/#securitycontextdeny'
@@ -529,6 +543,7 @@ control 'cis-kubernetes-benchmark-1.1.15' do
   tag cis_rid: "1.1.15"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'NamespaceLifecycle', url: 'https://kubernetes.io/docs/admin/admission-controllers/#namespacelifecycle'
@@ -563,6 +578,7 @@ control 'cis-kubernetes-benchmark-1.1.16' do
   tag cis_rid: "1.1.16"
   tag cis_level: 1
   tag nist: ['AU-3', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'cluster-administration', url: 'https://kubernetes.io/docs/concepts/cluster-administration/audit/'
@@ -598,6 +614,7 @@ control 'cis-kubernetes-benchmark-1.1.17' do
   tag cis_rid: "1.1.17"
   tag cis_level: 1
   tag nist: ['AU-4', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'cluster-administration', url: 'https://kubernetes.io/docs/concepts/cluster-administration/audit/'
@@ -641,6 +658,7 @@ control 'cis-kubernetes-benchmark-1.1.18' do
   tag cis_rid: "1.1.18"
   tag cis_level: 1
   tag nist: ['AU-4', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'cluster-administration', url: 'https://kubernetes.io/docs/concepts/cluster-administration/audit/'
@@ -684,6 +702,7 @@ control 'cis-kubernetes-benchmark-1.1.19' do
   tag cis_rid: "1.1.19"
   tag cis_level: 1
   tag nist: ['AU-4', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'cluster-administration', url: 'https://kubernetes.io/docs/concepts/cluster-administration/audit/'
@@ -727,6 +746,7 @@ control 'cis-kubernetes-benchmark-1.1.20' do
   tag cis_rid: "1.1.20"
   tag cis_level: 1
   tag nist: ['CM-7 (1)', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'authorization', url: 'https://kubernetes.io/docs/admin/authorization/'
@@ -760,6 +780,7 @@ control 'cis-kubernetes-benchmark-1.1.21' do
   tag cis_rid: "1.1.21"
   tag cis_level: 1
   tag nist: ['AC-2 (5)', '4']
+  tag severity: "medium"
 
   ref 'static-token-file', url: 'https://kubernetes.io/docs/admin/authentication/#static-token-file'
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
@@ -794,6 +815,7 @@ control 'cis-kubernetes-benchmark-1.1.22' do
   tag cis_rid: "1.1.22"
   tag cis_level: 1
   tag nist: ['SC-2', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'kubelet-authentication-authorization', url: 'https://kubernetes.io/docs/admin/kubelet-authentication-authorization/'
@@ -829,6 +851,7 @@ control 'cis-kubernetes-benchmark-1.1.23' do
   tag cis_rid: "1.1.23"
   tag cis_level: 1
   tag nist: ['SC-2', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'kubelet-authentication-authorization', url: 'https://kubernetes.io/docs/admin/kubelet-authentication-authorization/'
@@ -865,6 +888,7 @@ control 'cis-kubernetes-benchmark-1.1.24' do
   tag cis_rid: "1.1.24"
   tag cis_level: 1
   tag nist: ['AC-2', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'Kubernetes issues 24167', url: 'https://github.com/kubernetes/kubernetes/issues/24167'
@@ -900,6 +924,7 @@ control 'cis-kubernetes-benchmark-1.1.25' do
   tag cis_rid: "1.1.25"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'PodSecurityPolicy', url: 'https://kubernetes.io/docs/admin/admission-controllers/#podsecuritypolicy'
@@ -935,6 +960,7 @@ control 'cis-kubernetes-benchmark-1.1.26' do
   tag cis_rid: "1.1.26"
   tag cis_level: 1
   tag nist: ['CM-6', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'Kubernetes issues 24167', url: 'https://github.com/kubernetes/kubernetes/issues/24167'
@@ -969,6 +995,7 @@ control 'cis-kubernetes-benchmark-1.1.27' do
   tag cis_rid: "1.1.27"
   tag cis_level: 1
   tag nist: ['SC-7', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'security.html', url: 'https://coreos.com/etcd/docs/latest/op-guide/security.html'
@@ -1004,6 +1031,7 @@ control 'cis-kubernetes-benchmark-1.1.28' do
   tag cis_rid: "1.1.28"
   tag cis_level: 1
   tag nist: ['AC-2', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'ServiceAccount', url: 'https://kubernetes.io/docs/admin/admission-controllers/#serviceaccount'
@@ -1039,6 +1067,7 @@ control 'cis-kubernetes-benchmark-1.1.29' do
   tag cis_rid: "1.1.29"
   tag cis_level: 1
   tag nist: ['SC-8', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'securing-the-kubernetes-api', url: 'http://rootsquash.com/2016/05/10/securing-the-kubernetes-api/'
@@ -1075,6 +1104,7 @@ control 'cis-kubernetes-benchmark-1.1.30' do
   tag cis_rid: "1.1.30"
   tag cis_level: 1
   tag nist: ['SC-8', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'securing-the-kubernetes-api', url: 'http://rootsquash.com/2016/05/10/securing-the-kubernetes-api/'
@@ -1110,6 +1140,7 @@ control 'cis-kubernetes-benchmark-1.1.31' do
   tag cis_rid: "1.1.31"
   tag cis_level: 1
   tag nist: ['SC-8', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'security.html', url: 'https://coreos.com/etcd/docs/latest/op-guide/security.html'
@@ -1144,6 +1175,7 @@ control 'cis-kubernetes-benchmark-1.1.32' do
   tag cis_rid: "1.1.32"
   tag cis_level: 1
   tag nist: ['CM-7 (1)', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'node', url: 'https://kubernetes.io/docs/admin/authorization/node/'
@@ -1180,6 +1212,7 @@ control 'cis-kubernetes-benchmark-1.1.33' do
   tag cis_rid: "1.1.33"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
   ref 'kube-apiserver', url: 'https://kubernetes.io/docs/admin/kube-apiserver/'
   ref 'NodeRestriction', url: 'https://kubernetes.io/docs/admin/admission-controllers/#noderestriction'
@@ -1216,6 +1249,7 @@ control 'cis-kubernetes-benchmark-1.1.34' do
   tag cis_rid: "1.1.34"
   tag cis_level: 1
   tag nist: ['SC-28', '4']
+  tag severity: "medium"
 
   ref 'encrypt-data', url: 'https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/'
   ref 'kube17-security', url: 'https://acotten.com/post/kube17-security'
@@ -1259,6 +1293,7 @@ control 'cis-kubernetes-benchmark-1.1.35' do
   tag cis_rid: "1.1.35"
   tag cis_level: 1
   tag nist: ['SC-28', '4']
+  tag severity: "medium"
 
   ref 'encrypt-data', url: 'https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/'
   ref 'kube17-security', url: 'https://acotten.com/post/kube17-security'

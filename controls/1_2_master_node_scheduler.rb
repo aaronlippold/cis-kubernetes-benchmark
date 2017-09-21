@@ -46,6 +46,7 @@ control 'cis-kubernetes-benchmark-1.2.1' do
   tag cis_rid: "1.2.1"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
   ref 'kube-scheduler', url: 'https://kubernetes.io/docs/admin/kube-scheduler/'
   ref 'profiling.md', url: 'https://github.com/kubernetes/community/blob/master/contributors/devel/profiling.md'

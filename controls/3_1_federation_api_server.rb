@@ -42,6 +42,7 @@ control 'cis-kubernetes-benchmark-3.1.1' do
   tag cis_rid: "3.1.1"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -73,6 +74,7 @@ control 'cis-kubernetes-benchmark-3.1.2' do
   tag cis_rid: "3.1.2"
   tag cis_level: 1
   tag nist: ['SC-28', '4']
+  tag severity: "medium"
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -104,6 +106,7 @@ control 'cis-kubernetes-benchmark-3.1.3' do
   tag cis_rid: "3.1.3"
   tag cis_level: 1
   tag nist: ['AC-2', '4']
+  tag severity: "medium"
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -135,6 +138,7 @@ control 'cis-kubernetes-benchmark-3.1.4' do
   tag cis_rid: "3.1.4"
   tag cis_level: 1
   tag nist: ['CM-7 (1)', '4']
+  tag severity: "medium"
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -171,6 +175,7 @@ control 'cis-kubernetes-benchmark-3.1.5' do
   tag cis_rid: "3.1.5"
   tag cis_level: 1
   tag nist: ['CM-7 (1)', '4']
+  tag severity: "medium"
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -202,6 +207,7 @@ control 'cis-kubernetes-benchmark-3.1.6' do
   tag cis_rid: "3.1.6"
   tag cis_level: 1
   tag nist: ['AC-4 (20)', '4']
+  tag severity: "medium"
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -238,6 +244,7 @@ control 'cis-kubernetes-benchmark-3.1.7' do
   tag cis_rid: "3.1.7"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -269,6 +276,7 @@ control 'cis-kubernetes-benchmark-3.1.8' do
   tag cis_rid: "3.1.8"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -301,6 +309,7 @@ control 'cis-kubernetes-benchmark-3.1.9' do
   tag cis_rid: "3.1.9"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -332,6 +341,7 @@ control 'cis-kubernetes-benchmark-3.1.10' do
   tag cis_rid: "3.1.10"
   tag cis_level: 1
   tag nist: ['AU-3', '4']
+  tag severity: "medium"
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -363,6 +373,7 @@ control 'cis-kubernetes-benchmark-3.1.11' do
   tag cis_rid: "3.1.11"
   tag cis_level: 1
   tag nist: ['AU-4', '4']
+  tag severity: "medium"
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -402,6 +413,7 @@ control 'cis-kubernetes-benchmark-3.1.12' do
   tag cis_rid: "3.1.12"
   tag cis_level: 1
   tag nist: ['AU-4', '4']
+  tag severity: "medium"
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -441,6 +453,7 @@ control 'cis-kubernetes-benchmark-3.1.13' do
   tag cis_rid: "3.1.13"
   tag cis_level: 1
   tag nist: ['AU-4', '4']
+  tag severity: "medium"
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -480,6 +493,7 @@ control 'cis-kubernetes-benchmark-3.1.14' do
   tag cis_rid: "3.1.14"
   tag cis_level: 1
   tag nist: ['CM-7 (1)', '4']
+  tag severity: "medium"
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'federation-apiserver-deployment', url: 'https://github.com/kubernetes/kubernetes/blob/master/federation/manifests/federation-apiserver-deployment.yaml'
@@ -512,6 +526,7 @@ control 'cis-kubernetes-benchmark-3.1.15' do
   tag cis_rid: "3.1.15"
   tag cis_level: 1
   tag nist: ['SC-28', '4']
+  tag severity: "medium"
 
   ref 'static-token-file', url: 'https://kubernetes.io/docs/admin/authentication/#static-token-file'
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
@@ -544,6 +559,7 @@ control 'cis-kubernetes-benchmark-3.1.16' do
   tag cis_rid: "3.1.16"
   tag cis_level: 1
   tag nist: ['AC-2', '4']
+  tag severity: "medium"
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref '24167', url: 'https://github.com/kubernetes/kubernetes/issues/24167'
@@ -577,6 +593,7 @@ control 'cis-kubernetes-benchmark-3.1.17' do
   tag cis_rid: "3.1.17"
   tag cis_level: 1
   tag nist: ['CM-6', '4']
+  tag severity: "medium"
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref '24167', url: 'https://github.com/kubernetes/kubernetes/issues/24167'
@@ -609,6 +626,7 @@ control 'cis-kubernetes-benchmark-3.1.18' do
   tag cis_rid: "3.1.18"
   tag cis_level: 1
   tag nist: ['SC-7', '4']
+  tag severity: "medium"
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'security', url: 'https://coreos.com/etcd/docs/latest/op-guide/security.html'
@@ -642,6 +660,7 @@ control 'cis-kubernetes-benchmark-3.1.19' do
   tag cis_rid: "3.1.19"
   tag cis_level: 1
   tag nist: ['AC-4 (20)', '4']
+  tag severity: "medium"
 
   ref 'federation-apiserver', url: 'https://kubernetes.io/docs/admin/federation-apiserver/'
   ref 'securing-the-kubernetes-api', url: 'http://rootsquash.com/2016/05/10/securing-the-kubernetes-api/'

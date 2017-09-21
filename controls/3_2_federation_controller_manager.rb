@@ -42,6 +42,7 @@ control 'cis-kubernetes-benchmark-3.2.1' do
   tag cis_rid: "3.2.1"
   tag cis_level: 1
   tag nist: ['AC-6', '4']
+  tag severity: "medium"
 
   ref 'federation-controller-manager', url: 'https://kubernetes.io/docs/admin/federation-controller-manager/'
   ref 'profiling', url: 'https://github.com/kubernetes/community/blob/master/contributors/devel/profiling.md'

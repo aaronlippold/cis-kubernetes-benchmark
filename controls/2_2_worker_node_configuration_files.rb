@@ -38,6 +38,7 @@ control 'cis-kubernetes-benchmark-2.2.1' do
   tag cis_rid: "2.2.1"
   tag cis_level: 1
   tag nist: ['AC-6 (9)', '4']
+  tag severity: "medium"
 
   ref 'kubelet', url: 'https://kubernetes.io/docs/admin/kubelet/'
 
@@ -71,6 +72,7 @@ control 'cis-kubernetes-benchmark-2.2.2' do
   tag cis_rid: "2.2.2"
   tag cis_level: 1
   tag nist: ['AC-6 (9)', '4']
+  tag severity: "medium"
 
   ref 'kubelet', url: 'https://kubernetes.io/docs/admin/kubelet/'
 
@@ -105,6 +107,7 @@ control 'cis-kubernetes-benchmark-2.2.3' do
   tag cis_rid: "2.2.3"
   tag cis_level: 1
   tag nist: ['AC-6 (9)', '4']
+  tag severity: "medium"
 
   ref 'kubelet', url: 'https://kubernetes.io/docs/admin/kubelet/'
   ref '44-joining-your-noes', url: 'https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/#44-joining-your-nodes'
@@ -139,6 +142,7 @@ control 'cis-kubernetes-benchmark-2.2.4' do
   tag cis_rid: "2.2.4"
   tag cis_level: 1
   tag nist: ['AC-6 (9)', '4']
+  tag severity: "medium"
 
   ref 'kubelet', url: 'https://kubernetes.io/docs/admin/kubelet/'
   ref '44-joining-your-noes', url: 'https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/#44-joining-your-nodes'
@@ -174,6 +178,7 @@ control 'cis-kubernetes-benchmark-2.2.5' do
   tag cis_rid: "2.2.5"
   tag cis_level: 1
   tag nist: ['AC-6 (9)', '4']
+  tag severity: "medium"
 
   ref 'kubelet', url: 'https://kubernetes.io/docs/admin/kubelet/'
 
@@ -207,6 +212,7 @@ control 'cis-kubernetes-benchmark-2.2.6' do
   tag cis_rid: "2.2.6"
   tag cis_level: 1
   tag nist: ['AC-6 (9)', '4']
+  tag severity: "medium"
 
   ref 'kubelet', url: 'https://kubernetes.io/docs/admin/kubelet/'
 
@@ -248,6 +254,7 @@ control 'cis-kubernetes-benchmark-2.2.7' do
   tag cis_rid: "2.2.7"
   tag cis_level: 1
   tag nist: ['AC-6 (9)', '4']
+  tag severity: "medium"
 
   ref 'x509-client-certs', url: 'https://kubernetes.io/docs/admin/authentication/#x509-client-certs'
 
@@ -291,6 +298,7 @@ control 'cis-kubernetes-benchmark-2.2.8' do
   tag cis_rid: "2.2.8"
   tag cis_level: 1
   tag nist: ['AC-6 (9)', '4']
+  tag severity: "medium"
 
   ref 'x509-client-certs', url: 'https://kubernetes.io/docs/admin/authentication/#x509-client-certs'
 
